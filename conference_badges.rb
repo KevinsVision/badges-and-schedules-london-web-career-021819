@@ -20,3 +20,5 @@ def assign_rooms(rooms)
   #index += 1
 end
 end
+
+def 
