@@ -21,4 +21,6 @@ def assign_rooms(rooms)
 end
 end
 
-def 
+def printer
+  
+end
