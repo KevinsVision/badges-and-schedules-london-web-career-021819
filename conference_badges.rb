@@ -17,5 +17,6 @@ def assign_rooms(rooms)
   
   rooms.each_with_index.map do |person, index|
   "Hello, #{person}! You'll be assigned to room #{index}!"
+  index += 1
 end
 end
