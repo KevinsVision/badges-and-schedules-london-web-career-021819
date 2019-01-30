@@ -14,8 +14,8 @@ end
 def assign_rooms(rooms)
   #rooms = 7
   #names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  rooms += 1
   rooms.each_with_index.map do |person, index|
   "Hello, #{person}! You'll be assigned to room #{index}!"
- rooms += 1
 end
 end
